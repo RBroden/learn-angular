@@ -25,3 +25,16 @@ Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To u
 ## Further help
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+
+## steps to improve
+
+- First created application in standalone
+- Implemented Server Side Rendering with Universal
+- Performance reports stated
+    - Enable text compression
+    - Minifly JavaScript
+    - Reduce unused JavaScript
+    - Added "buildOptimizer": true and "optimization": true to angular.json under build and production; this handled all 3 items above
+- Added gzipper to dev dependencies. gzipper compress ./dist/test1/browser --gzip
+
+Good place to start for performance https://youtu.be/Tkavg3H8sy8?t=3448

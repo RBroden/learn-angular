@@ -39,10 +39,14 @@
             "styles": [
               "src/styles.scss"
             ],
-            "scripts": []
+            "scripts": [],
+            "buildOptimizer": true,
+            "optimization": true
           },
           "configurations": {
             "production": {
+              "buildOptimizer": true,
+              "optimization": true,
               "budgets": [
                 {
                   "type": "initial",
