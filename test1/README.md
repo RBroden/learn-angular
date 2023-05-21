@@ -35,6 +35,6 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
     - Minifly JavaScript
     - Reduce unused JavaScript
     - Added "buildOptimizer": true and "optimization": true to angular.json under build and production; this handled all 3 items above
-- Added gzipper to dev dependencies. gzipper compress ./dist/test1/browser --gzip
+- Added gzipper to dev dependencies. gzipper compress ./dist/test1/browser --gzip. --remove-larger command removes files that are larger after compression; this can occur with empty files ig
 
 Good place to start for performance https://youtu.be/Tkavg3H8sy8?t=3448
